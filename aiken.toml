@@ -1,0 +1,14 @@
+name = "aiken-lang/escrow-to-index-fund"
+version = "0.0.0"
+license = "Apache-2.0"
+description = "Aiken contracts for project 'aiken-lang/escrow-to-index-fund'"
+
+[repository]
+user = "aiken-lang"
+project = "escrow-to-index-fund"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "1.5.0"
+source = "github"
