@@ -13,5 +13,4 @@ pub type EscrowRedeem {
 
 pub type EscrowState {
   owner: Address,
-  version: Int,
 }

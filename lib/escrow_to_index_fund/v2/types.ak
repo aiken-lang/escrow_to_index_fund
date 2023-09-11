@@ -8,13 +8,12 @@ pub type EscrowActionV2 {
 }
 
 pub type EscrowRedeemV2 {
-  control_reference: OutputReference,
   action: EscrowActionV2,
+  control_reference: OutputReference,
 }
 
 pub type EscrowStateV2 {
   tag: Data,
   owner: Address,
-  version: Int,
-  auto_upgrade: Bool,
+  auto_update: Bool,
 }
